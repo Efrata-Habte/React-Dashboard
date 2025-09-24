@@ -2,6 +2,7 @@ import Header from './Header';
 import Footer from './Footer';
 import StatsCard from './Stats_Card';
 import ProjectCard from './ProjectCard';
+import SectionHeader from './SectionHeader';
 import './index.css'
 
 
@@ -43,7 +44,30 @@ function App() {
                     member="3 members"
                     date="1/30/2024"
                    />
-      
+
+      <SectionHeader header="Recent Tasks" />
+
+      <ProjectCard width="600px" title="Design Homepage" 
+                   description="Create wireframes and mockups for the new homepage layout"
+                    member="Mike Johnson"
+                    date="1/30/2024"
+                   />
+      <ProjectCard width="600px" title="Setup Database"
+                   description="Configure PostgreSQL database and create initial schemas"
+                    member="Sarah Chen"
+                    date="1/30/2024"
+                   />
+      <ProjectCard width="600px" title="Write Documentation"
+                    description="Document API endpoints and component usage"
+                    member="Alex Rivera"
+                    date="1/30/2024"
+                   />
+      <ProjectCard width="600px" title="Implement Authentication"
+                   description="Add user login and registration functionality"
+                    member="Emma Davis"
+                    date="1/30/2024"
+                   />
+
       <Footer /> 
     </>
   );

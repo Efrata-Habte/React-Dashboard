@@ -4,7 +4,7 @@ import styles from './ProjectCard.module.css';
 
 function ProjectCard(props) {
   return (
-    <div className={styles.Card}>
+    <div className={styles.Card} style={{ width: props.width || '300px' }}>
       <h2>{props.title}</h2>
       <p>{props.description}</p>
       <div className={styles.projectMeta}>
