@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Geist', sans-serif;
-}
-
 .headerContainer{
     margin: 0;
     padding: 0;

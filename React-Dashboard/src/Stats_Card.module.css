@@ -1,0 +1,33 @@
+
+.Card{
+    display: inline-block;
+    width:200px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-left: 4px solid red;
+    margin: 10px 10px;
+}
+
+.Card .title{
+    margin: 15px;
+    font-size: 14px;
+    color: #6B7280;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+}
+
+.Card .number{
+    margin: 13px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 32px;
+}
+
+.Card p{
+    text-align: start;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
