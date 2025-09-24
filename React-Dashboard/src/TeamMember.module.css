@@ -1,0 +1,33 @@
+.teamMember {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.teamMember .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #10B981;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.memberInfo h4 {
+    margin: 0 0 4px 0;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+.memberInfo p {
+    margin: 0;
+    color: #6B7280;
+    font-size: 12px;
+}

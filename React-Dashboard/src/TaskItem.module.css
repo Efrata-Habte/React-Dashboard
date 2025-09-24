@@ -1,0 +1,44 @@
+.taskItem {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 4px solid #3B82F6;
+}
+
+.taskHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.taskHeader h4 {
+    margin: 0;
+    color: #1F2937;
+    font-size: 16px;
+}
+
+.taskItem p {
+    margin: 0 0 15px 0;
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.taskMeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assignee {
+    color: #3B82F6;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.date {
+    color: #9CA3AF;
+    font-size: 12px;
+}

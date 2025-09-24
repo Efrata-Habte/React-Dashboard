@@ -1,0 +1,29 @@
+.notification {
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 4px solid #F59E0B;
+}
+
+.notificationHeader {
+    margin-bottom: 8px;
+}
+
+.type {
+    color: #1F2937;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.notification p {
+    margin: 0 0 10px 0;
+    color: #6B7280;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.time {
+    color: #9CA3AF;
+    font-size: 11px;
+}
