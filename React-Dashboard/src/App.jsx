@@ -17,7 +17,7 @@ function App() {
                 description="All tasks in the system" 
                 color="red"/>
       <StatsCard title="ACTIVE PROJECTS" 
-                number={4} 
+                number={3} 
                 description="Currently running projects" 
                 color="green"/>
       <StatsCard title="TEAM MEMBERS" 
@@ -28,6 +28,8 @@ function App() {
                 number={3} 
                 description="Recent updates" 
                 color="gray"/>
+
+      <SectionHeader header="" />
 
       <ProjectCard title="E-commerce Platform"
                    description="Building a modern online shopping experience"
