@@ -4,8 +4,8 @@ import StatsCard from './Stats_Card';
 import ProjectCard from './ProjectCard';
 import SectionHeader from './SectionHeader';
 import TeamMember from './TeamMember';
-import TaskItem from './TaskItem';
-import Notification from './Notification';
+import RecentTask from './RecentTask';
+import NotificationItem from './NotificationItem';
 import ActivityItem from './ActivityItem';
 import './index.css'
 
@@ -38,42 +38,58 @@ function App() {
                       color="#6B7280"/>
           </div>
 
-          {/* Projects Section */}
-          <SectionHeader header="Projects" />
+          {/* Projects Section - Using existing ProjectCard */}
           <div className="projects-section">
-            <ProjectCard title="E-commerce Platform"
-                        description="Building a modern online shopping experience"
-                        member="8 members"
-                        date="2/15/2024"
-                        />
-            <ProjectCard title="Mobile App"
-                        description="Cross-platform mobile application development"
-                        member="5 members"
-                        date="3/1/2024"
-                        />
-            <ProjectCard title="Analytics Dashboard"
-                        description="Real-time data visualization and reporting"
-                        member="3 members"
-                        date="1/30/2024"
-                        />
+            <ProjectCard 
+              title="E-commerce Platform"
+              description="Building a modern online shopping experience"
+              member="8 members"
+              date="2/15/2024"
+            />
+            <ProjectCard 
+              title="Mobile App"
+              description="Cross-platform mobile application development"
+              member="5 members"
+              date="3/1/2024"
+            />
+            <ProjectCard 
+              title="Analytics Dashboard"
+              description="Real-time data visualization and reporting"
+              member="3 members"
+              date="1/30/2024"
+            />
           </div>
 
-          {/* Recent Tasks Section */}
+          {/* Recent Tasks Section - Using new RecentTask component */}
           <SectionHeader header="Recent Tasks" />
-          <div className="tasks-section">
-            <TaskItem 
+          <div className="recent-tasks-section">
+            <RecentTask 
+              width="95%"
               title="Design Homepage"
               description="Create wireframes and mockups for the new homepage layout"
               assignee="Sarah Chen"
               date="1/15/2024"
-              completed={false}
             />
-            <TaskItem 
+            <RecentTask 
+              width="95%"
               title="Setup Database"
               description="Configure PostgreSQL database and create initial schemas"
               assignee="Mike Johnson"
               date="1/20/2024"
-              completed={false}
+            />
+            <RecentTask 
+              width="95%"
+              title="Write Documentation"
+              description="Document API endpoints and component usage"
+              assignee="Alex Rivera"
+              date="1/10/2024"
+            />
+            <RecentTask 
+              width="95%"
+              title="Implement Authentication"
+              description="Add user login and registration functionality"
+              assignee="Emma Davis"
+              date="1/25/2024"
             />
           </div>
         </div>
@@ -118,17 +134,17 @@ function App() {
           {/* Notifications */}
           <SectionHeader header="Notifications" />
           <div className="notifications-section">
-            <Notification 
+            <NotificationItem 
               type="Task Completed"
               message="Documentation has been finished by Alex Rivera"
               time="2 hours ago"
             />
-            <Notification
+            <NotificationItem 
               type="Deadline Approaching"
               message="Homepage design is due in 3 days"
               time="4 hours ago"
             />
-            <Notification
+            <NotificationItem 
               type="New Team Member"
               message="Emma Davis joined the project"
               time="1 day ago"

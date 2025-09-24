@@ -1,4 +1,4 @@
-.Card {
+.recentTask {
     display: inline-block;
     width: 300px;
     height: auto;
@@ -9,12 +9,12 @@
     background-color: white;
 }
 
-.Card:hover {
+.recentTask:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
-.Card h2{
+.recentTask h2{
     margin: 15px;
     font-size: 20px;
     color: #1F2937;
@@ -23,7 +23,7 @@
     line-height: 28px;
 }   
 
-.Card p{
+.recentTask p{
     text-align: start;
     margin: 10px 15px;
     font-size: 16px;
@@ -33,30 +33,30 @@
     line-height: 21px;
 }
 
-.Card .projectMeta{
+.recentTask .projectMeta{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 15px;
 }
 
-.Card img{
+.recentTask img{
     width:20px;
     height:20px;
     margin-right: 8px;
 }
-.Card span{
+
+.recentTask span{
     font-size: 14px;
     color: #6B7280;
     font-weight: normal;
     letter-spacing: 0.7px;
     line-height: 21px;
 }
-.Card .meta{
+
+.recentTask .meta{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 14px;
 }
-
-

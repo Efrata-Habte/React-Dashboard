@@ -1,4 +1,4 @@
-import styles from './Notification.module.css';
+import styles from './NotificationItem.module.css';
 
 function NotificationItem(props) {
     return(

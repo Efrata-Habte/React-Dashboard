@@ -6,6 +6,7 @@
     border: 1px solid #ccc;
     border-left: 4px solid red;
     margin: 10px 10px;
+    background-color: white;
 }
 
 .Card .title{
