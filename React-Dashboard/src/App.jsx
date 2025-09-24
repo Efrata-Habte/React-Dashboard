@@ -28,8 +28,8 @@ function App() {
                 description="Recent updates" 
                 color="gray"/>
 
-      <ProjectCard title="Project Alpha"
-                   description="This is the first project."/>
+      <ProjectCard title="E-commerce Platform"
+                   description="Building a modern online shopping experience"/>
       
       <Footer /> 
     </>

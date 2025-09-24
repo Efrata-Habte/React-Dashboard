@@ -1,0 +1,55 @@
+.Card {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 15px;
+}
+
+.Card h2{
+    margin: 15px;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}   
+
+.Card p{
+    text-align: start;
+    margin: 10px 15px;
+    font-size: 16px;
+    color: #4B5563;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+}
+
+.Card .projectMeta{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.Card img{
+    width:20px;
+    height:20px;
+    margin-right: 8px;
+}
+.Card span{
+    font-size: 14px;
+    color: #6B7280;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+}
+.Card .meta{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+}
+
+
