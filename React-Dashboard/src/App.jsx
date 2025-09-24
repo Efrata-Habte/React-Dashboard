@@ -29,7 +29,20 @@ function App() {
                 color="gray"/>
 
       <ProjectCard title="E-commerce Platform"
-                   description="Building a modern online shopping experience"/>
+                   description="Building a modern online shopping experience"
+                    member="8 members"
+                    date="2/15/2024"
+                   />
+      <ProjectCard title="Mbile App"
+                   description="Cross-platform mobile application development"
+                    member="5 members"
+                    date="3/1/2024"
+                   />
+      <ProjectCard title="Analytics Dashboard"
+                   description="Real-time data visualization and reporting"
+                    member="3 members"
+                    date="1/30/2024"
+                   />
       
       <Footer /> 
     </>

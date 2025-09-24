@@ -10,11 +10,11 @@ function ProjectCard(props) {
       <div className={styles.projectMeta}>
         <div className={styles.meta}>
             <img src={user} />
-            <span>8 members</span>
+            <span>{props.member}</span>
         </div>
         <div className={styles.meta}>
             <img src={calendar} />
-            <span>2/15/2024</span>
+            <span>{props.date}</span>
         </div>
       </div>
     </div>
